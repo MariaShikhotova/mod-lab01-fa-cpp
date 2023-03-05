@@ -65,5 +65,5 @@ unsigned int faStr3(const char *str) {
 			sum_word++;
 		}
 	}
-	return round(count_letter/sum_word);
+	return floor(count_letter/sum_word + 0.5);
 }
