@@ -1,6 +1,6 @@
 // Copyright 2022 UNN-IASR
 #include "fun.h"
-
+#include <cstring>
 unsigned int faStr1(const char *str) {
     int sum = 0;
 	bool flag = true;
