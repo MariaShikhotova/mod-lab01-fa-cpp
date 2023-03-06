@@ -1,5 +1,6 @@
 // Copyright 2022 UNN-IASR
 #include "fun.h"
+#include <cstring>
 unsigned int faStr1(const char *str) {
 	int sum = 0;
 	bool flag = true;
@@ -57,6 +58,6 @@ unsigned int faStr3(const char *str) {
 	if ((res - static_cast<int>(res)) < 0.5) {
 		return static_cast<int>(res);
 	} else {
-		eturn static_cast<int>(res) + 1;
+		return static_cast<int>(res) + 1;
 	}
 }
