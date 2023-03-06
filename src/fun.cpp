@@ -68,9 +68,9 @@ unsigned int faStr3(const char *str) {
 		}
 	}
 	double res = count_letter / sum_word;
-	if ((res - (int)res) < 0.5) 
-		return (int)res;
+	if ((res - static_cast<int>(res)) < 0.5) 
+		return static_cast<int>(res);
 	else {
-		return (int)res + 1;
+		return static_cast<int>(res) + 1;
 	}
 }
