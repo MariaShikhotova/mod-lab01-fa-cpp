@@ -2,8 +2,6 @@
 #include "fun.h"
 #include <cstring>
 #include <iostream>
-
-#include "fun.h"
 #include <ctype.h>
 using namespace std;
 unsigned int faStr1(const char *str) {
